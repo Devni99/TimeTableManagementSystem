@@ -1,0 +1,16 @@
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe.config
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.pdb
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Guna.UI.dll
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csprojAssemblyReference.cache
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Splash.resources
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Properties.Resources.resources
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.GenerateResource.cache
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CoreCompileInputs.cache
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CopyComplete
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.exe
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.pdb
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ConsecutiveSessions.resources
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageStudent.resources
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Addstudents.resources
+E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Session_ManagementDashboard.resources
