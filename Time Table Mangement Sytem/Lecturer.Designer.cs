@@ -1,7 +1,7 @@
 ﻿
 namespace Time_Table_Mangement_Sytem
 {
-    partial class Addstudents
+    partial class Lecturer
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace Time_Table_Mangement_Sytem
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
@@ -62,33 +62,34 @@ namespace Time_Table_Mangement_Sytem
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.subId = new System.Windows.Forms.TextBox();
-            this.groupId = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.year = new System.Windows.Forms.ComboBox();
-            this.programme = new System.Windows.Forms.ComboBox();
-            this.mainGroup = new System.Windows.Forms.ComboBox();
-            this.subGroup = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.StudentDGV = new System.Windows.Forms.DataGridView();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.LecDGV = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.Faculty = new System.Windows.Forms.ComboBox();
+            this.Dept = new System.Windows.Forms.ComboBox();
+            this.Center = new System.Windows.Forms.ComboBox();
+            this.Building = new System.Windows.Forms.ComboBox();
+            this.Level = new System.Windows.Forms.ComboBox();
+            this.NoOfDays = new System.Windows.Forms.ComboBox();
+            this.NoOfHours = new System.Windows.Forms.ComboBox();
+            this.EmpID = new System.Windows.Forms.TextBox();
+            this.LecName = new System.Windows.Forms.TextBox();
+            this.Rank = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -109,32 +110,39 @@ namespace Time_Table_Mangement_Sytem
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StudentDGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LecDGV)).BeginInit();
             this.SuspendLayout();
             // 
-            // label3
+            // panel1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(6, -92);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(257, 24);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Add Student Group Details";
+            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(196, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1135, 53);
+            this.panel1.TabIndex = 54;
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(268, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(199, 24);
-            this.label2.TabIndex = 52;
-            this.label2.Text = "Add Student Groups";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(295, 17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(472, 24);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "ABC Institute Time Table Management System";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(227, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -150,10 +158,10 @@ namespace Time_Table_Mangement_Sytem
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Location = new System.Drawing.Point(-1, -6);
+            this.panel2.Location = new System.Drawing.Point(1, -1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(233, 830);
-            this.panel2.TabIndex = 54;
+            this.panel2.TabIndex = 55;
             // 
             // panel11
             // 
@@ -207,7 +215,6 @@ namespace Time_Table_Mangement_Sytem
             this.label1.TabIndex = 29;
             this.label1.Text = "Session \r\nManagement";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox11
             // 
@@ -336,7 +343,6 @@ namespace Time_Table_Mangement_Sytem
             this.label14.TabIndex = 29;
             this.label14.Text = "Tags";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // pictureBox6
             // 
@@ -384,7 +390,7 @@ namespace Time_Table_Mangement_Sytem
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Teal;
+            this.panel4.BackColor = System.Drawing.Color.Azure;
             this.panel4.Controls.Add(this.label16);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Location = new System.Drawing.Point(13, 200);
@@ -417,7 +423,7 @@ namespace Time_Table_Mangement_Sytem
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Azure;
+            this.panel3.BackColor = System.Drawing.Color.Teal;
             this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Location = new System.Drawing.Point(13, 128);
@@ -434,6 +440,7 @@ namespace Time_Table_Mangement_Sytem
             this.label17.Size = new System.Drawing.Size(92, 20);
             this.label17.TabIndex = 29;
             this.label17.Text = "Lecturers";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // pictureBox3
             // 
@@ -468,206 +475,259 @@ namespace Time_Table_Mangement_Sytem
             this.label18.TabIndex = 0;
             this.label18.Text = "Dashboard";
             // 
-            // panel1
+            // label2
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(229, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1101, 53);
-            this.panel1.TabIndex = 53;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(265, 130);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 17);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Employee ID";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label4
+            // label3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(295, 17);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(472, 24);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "ABC Institute Time Table Management System";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // subId
-            // 
-            this.subId.Location = new System.Drawing.Point(488, 288);
-            this.subId.Multiline = true;
-            this.subId.Name = "subId";
-            this.subId.Size = new System.Drawing.Size(192, 33);
-            this.subId.TabIndex = 66;
-            // 
-            // groupId
-            // 
-            this.groupId.Location = new System.Drawing.Point(488, 239);
-            this.groupId.Multiline = true;
-            this.groupId.Name = "groupId";
-            this.groupId.Size = new System.Drawing.Size(192, 29);
-            this.groupId.TabIndex = 63;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(328, 239);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 20);
-            this.label8.TabIndex = 59;
-            this.label8.Text = "Group ID -";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(328, 288);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(124, 20);
-            this.label11.TabIndex = 60;
-            this.label11.Text = "Sub Group ID -";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(769, 200);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 20);
-            this.label7.TabIndex = 58;
-            this.label7.Text = "Sub Group No -";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(265, 182);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 17);
+            this.label3.TabIndex = 57;
+            this.label3.Text = "Lecturer Name";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(328, 148);
+            this.label5.Location = new System.Drawing.Point(265, 248);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(139, 20);
-            this.label5.TabIndex = 55;
-            this.label5.Text = "Academic Year -";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.Size = new System.Drawing.Size(53, 17);
+            this.label5.TabIndex = 58;
+            this.label5.Text = "Faculty";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(328, 194);
+            this.label6.Location = new System.Drawing.Point(265, 308);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 20);
-            this.label6.TabIndex = 57;
-            this.label6.Text = "Main Group No -";
+            this.label6.Size = new System.Drawing.Size(82, 17);
+            this.label6.TabIndex = 59;
+            this.label6.Text = "Department";
             this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(817, 130);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 17);
+            this.label7.TabIndex = 60;
+            this.label7.Text = "Builiding";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(817, 185);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(42, 17);
+            this.label8.TabIndex = 61;
+            this.label8.Text = "Level";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(817, 248);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 17);
+            this.label11.TabIndex = 62;
+            this.label11.Text = "No of Active Days";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(817, 312);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(126, 17);
+            this.label19.TabIndex = 63;
+            this.label19.Text = "No of Active Hours";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(274, 377);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(50, 17);
+            this.label20.TabIndex = 64;
+            this.label20.Text = "Center";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(817, 377);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(41, 17);
+            this.label21.TabIndex = 65;
+            this.label21.Text = "Rank";
+            // 
+            // LecDGV
+            // 
+            this.LecDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.LecDGV.Location = new System.Drawing.Point(261, 545);
+            this.LecDGV.Name = "LecDGV";
+            this.LecDGV.RowHeadersWidth = 51;
+            this.LecDGV.RowTemplate.Height = 24;
+            this.LecDGV.Size = new System.Drawing.Size(1053, 225);
+            this.LecDGV.TabIndex = 66;
+            this.LecDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LecDGV_CellClick);
+            this.LecDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LecDGV_CellContentClick);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(994, 481);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 47);
+            this.button2.TabIndex = 70;
+            this.button2.Text = "CLEAR";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(556, 344);
+            this.button1.Location = new System.Drawing.Point(469, 481);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 47);
-            this.button1.TabIndex = 70;
-            this.button1.Text = "GENERATE ID";
-            this.toolTip2.SetToolTip(this.button1, "Click to generate IDs");
+            this.button1.Size = new System.Drawing.Size(125, 47);
+            this.button1.TabIndex = 69;
+            this.button1.Text = "SAVE";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label20
+            // button10
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(268, 436);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(217, 24);
-            this.label20.TabIndex = 74;
-            this.label20.Text = "Manage Group Details";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button11.Location = new System.Drawing.Point(1093, 296);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(125, 47);
-            this.button11.TabIndex = 69;
-            this.button11.Text = "CLEAR";
-            this.toolTip5.SetToolTip(this.button11, "Click to Clear Fields");
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.button10.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button10.Location = new System.Drawing.Point(839, 481);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(124, 47);
+            this.button10.TabIndex = 68;
+            this.button10.Text = "DELETE";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button13.Location = new System.Drawing.Point(945, 296);
+            this.button13.Location = new System.Drawing.Point(651, 481);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(125, 47);
             this.button13.TabIndex = 67;
-            this.button13.Text = "SAVE";
-            this.toolTip1.SetToolTip(this.button13, "Click Here to Save");
+            this.button13.Text = "UPDATE";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // year
+            // button3
             // 
-            this.year.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.year.FormattingEnabled = true;
-            this.year.Items.AddRange(new object[] {
-            "Y1.S1",
-            "Y1.S2",
-            "Y2.S1",
-            "Y2.S2",
-            "Y3.S1",
-            "Y3.S2",
-            "Y4.S1",
-            "Y4.S2"});
-            this.year.Location = new System.Drawing.Point(488, 140);
-            this.year.Name = "year";
-            this.year.Size = new System.Drawing.Size(192, 28);
-            this.year.TabIndex = 70;
-            this.year.Text = "Select Year";
+            this.button3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(1075, 411);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(185, 31);
+            this.button3.TabIndex = 71;
+            this.button3.Text = "GENERATE RANK";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // programme
+            // Faculty
             // 
-            this.programme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.programme.FormattingEnabled = true;
-            this.programme.Items.AddRange(new object[] {
+            this.Faculty.FormattingEnabled = true;
+            this.Faculty.Items.AddRange(new object[] {
+            "IT",
+            "BM",
+            "Engineering"});
+            this.Faculty.Location = new System.Drawing.Point(406, 241);
+            this.Faculty.Name = "Faculty";
+            this.Faculty.Size = new System.Drawing.Size(224, 24);
+            this.Faculty.TabIndex = 72;
+            // 
+            // Dept
+            // 
+            this.Dept.FormattingEnabled = true;
+            this.Dept.Items.AddRange(new object[] {
             "IT",
             "SE",
-            "ISE",
             "DS",
-            "CS",
+            "ISE",
             "CSNE"});
-            this.programme.Location = new System.Drawing.Point(962, 146);
-            this.programme.Name = "programme";
-            this.programme.Size = new System.Drawing.Size(198, 28);
-            this.programme.TabIndex = 71;
-            this.programme.Text = "Select Programme";
+            this.Dept.Location = new System.Drawing.Point(406, 305);
+            this.Dept.Name = "Dept";
+            this.Dept.Size = new System.Drawing.Size(224, 24);
+            this.Dept.TabIndex = 73;
             // 
-            // mainGroup
+            // Center
             // 
-            this.mainGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainGroup.FormattingEnabled = true;
-            this.mainGroup.Items.AddRange(new object[] {
+            this.Center.FormattingEnabled = true;
+            this.Center.Items.AddRange(new object[] {
+            "Malabe",
+            "Metro",
+            "Kandy"});
+            this.Center.Location = new System.Drawing.Point(406, 370);
+            this.Center.Name = "Center";
+            this.Center.Size = new System.Drawing.Size(224, 24);
+            this.Center.TabIndex = 74;
+            // 
+            // Building
+            // 
+            this.Building.FormattingEnabled = true;
+            this.Building.Items.AddRange(new object[] {
+            "New Building",
+            "A Block",
+            "D Block"});
+            this.Building.Location = new System.Drawing.Point(953, 127);
+            this.Building.Name = "Building";
+            this.Building.Size = new System.Drawing.Size(224, 24);
+            this.Building.TabIndex = 75;
+            // 
+            // Level
+            // 
+            this.Level.FormattingEnabled = true;
+            this.Level.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.Level.Location = new System.Drawing.Point(953, 179);
+            this.Level.Name = "Level";
+            this.Level.Size = new System.Drawing.Size(224, 24);
+            this.Level.TabIndex = 76;
+            // 
+            // NoOfDays
+            // 
+            this.NoOfDays.FormattingEnabled = true;
+            this.NoOfDays.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"});
+            this.NoOfDays.Location = new System.Drawing.Point(953, 245);
+            this.NoOfDays.Name = "NoOfDays";
+            this.NoOfDays.Size = new System.Drawing.Size(224, 24);
+            this.NoOfDays.TabIndex = 77;
+            // 
+            // NoOfHours
+            // 
+            this.NoOfHours.FormattingEnabled = true;
+            this.NoOfHours.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -677,111 +737,72 @@ namespace Time_Table_Mangement_Sytem
             "7",
             "8",
             "9",
-            "10"});
-            this.mainGroup.Location = new System.Drawing.Point(488, 191);
-            this.mainGroup.Name = "mainGroup";
-            this.mainGroup.Size = new System.Drawing.Size(192, 28);
-            this.mainGroup.TabIndex = 72;
-            this.mainGroup.Text = "Select Group";
+            "10",
+            "11"});
+            this.NoOfHours.Location = new System.Drawing.Point(953, 312);
+            this.NoOfHours.Name = "NoOfHours";
+            this.NoOfHours.Size = new System.Drawing.Size(224, 24);
+            this.NoOfHours.TabIndex = 78;
             // 
-            // subGroup
+            // EmpID
             // 
-            this.subGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subGroup.FormattingEnabled = true;
-            this.subGroup.Items.AddRange(new object[] {
-            "1",
-            "2"});
-            this.subGroup.Location = new System.Drawing.Point(962, 200);
-            this.subGroup.Name = "subGroup";
-            this.subGroup.Size = new System.Drawing.Size(198, 28);
-            this.subGroup.TabIndex = 73;
-            this.subGroup.Text = "Select Sub Group";
+            this.EmpID.Location = new System.Drawing.Point(406, 130);
+            this.EmpID.Name = "EmpID";
+            this.EmpID.Size = new System.Drawing.Size(224, 22);
+            this.EmpID.TabIndex = 79;
             // 
-            // label19
+            // LecName
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(769, 148);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(112, 20);
-            this.label19.TabIndex = 56;
-            this.label19.Text = "Programme -";
+            this.LecName.Location = new System.Drawing.Point(406, 182);
+            this.LecName.Name = "LecName";
+            this.LecName.Size = new System.Drawing.Size(224, 22);
+            this.LecName.TabIndex = 80;
             // 
-            // StudentDGV
+            // Rank
             // 
-            this.StudentDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StudentDGV.Location = new System.Drawing.Point(261, 489);
-            this.StudentDGV.Name = "StudentDGV";
-            this.StudentDGV.RowHeadersWidth = 51;
-            this.StudentDGV.RowTemplate.Height = 24;
-            this.StudentDGV.Size = new System.Drawing.Size(1044, 230);
-            this.StudentDGV.TabIndex = 75;
-            this.StudentDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudentDGV_CellClick);
-            this.StudentDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudentDGV_CellContentClick);
+            this.Rank.Location = new System.Drawing.Point(953, 377);
+            this.Rank.Name = "Rank";
+            this.Rank.Size = new System.Drawing.Size(224, 22);
+            this.Rank.TabIndex = 81;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(1135, 741);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 47);
-            this.button3.TabIndex = 77;
-            this.button3.Text = "DELETE";
-            this.toolTip4.SetToolTip(this.button3, "Confirm Deletion");
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(1004, 741);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 47);
-            this.button4.TabIndex = 76;
-            this.button4.Text = "UPDATE";
-            this.toolTip3.SetToolTip(this.button4, "Confirm Update");
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // Addstudents
+            // Lecturer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1326, 813);
+            this.ClientSize = new System.Drawing.Size(1326, 780);
+            this.Controls.Add(this.Rank);
+            this.Controls.Add(this.LecName);
+            this.Controls.Add(this.EmpID);
+            this.Controls.Add(this.NoOfHours);
+            this.Controls.Add(this.NoOfDays);
+            this.Controls.Add(this.Level);
+            this.Controls.Add(this.Building);
+            this.Controls.Add(this.Center);
+            this.Controls.Add(this.Dept);
+            this.Controls.Add(this.Faculty);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.StudentDGV);
-            this.Controls.Add(this.subGroup);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.year);
-            this.Controls.Add(this.mainGroup);
-            this.Controls.Add(this.programme);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.subId);
-            this.Controls.Add(this.groupId);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.LecDGV);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label11);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Addstudents";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Time Table Management System";
-            this.Load += new System.EventHandler(this.Addstudents_Load);
+            this.Name = "Lecturer";
+            this.Text = "Lecturer";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -812,18 +833,17 @@ namespace Time_Table_Mangement_Sytem
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StudentDGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LecDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label12;
@@ -854,32 +874,31 @@ namespace Time_Table_Mangement_Sytem
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox subId;
-        private System.Windows.Forms.TextBox groupId;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox subGroup;
-        private System.Windows.Forms.ComboBox programme;
-        private System.Windows.Forms.ComboBox mainGroup;
-        private System.Windows.Forms.ComboBox year;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.DataGridView StudentDGV;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.DataGridView LecDGV;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip2;
-        private System.Windows.Forms.ToolTip toolTip4;
-        private System.Windows.Forms.ToolTip toolTip3;
-        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ComboBox Faculty;
+        private System.Windows.Forms.ComboBox Dept;
+        private System.Windows.Forms.ComboBox Center;
+        private System.Windows.Forms.ComboBox Building;
+        private System.Windows.Forms.ComboBox Level;
+        private System.Windows.Forms.ComboBox NoOfDays;
+        private System.Windows.Forms.ComboBox NoOfHours;
+        private System.Windows.Forms.TextBox EmpID;
+        private System.Windows.Forms.TextBox LecName;
+        private System.Windows.Forms.TextBox Rank;
     }
 }

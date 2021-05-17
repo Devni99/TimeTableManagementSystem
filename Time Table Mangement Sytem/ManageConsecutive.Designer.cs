@@ -1,7 +1,7 @@
 ﻿
 namespace Time_Table_Mangement_Sytem
 {
-    partial class Addstudents
+    partial class ManageConsecutive
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,6 @@ namespace Time_Table_Mangement_Sytem
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
@@ -65,30 +62,25 @@ namespace Time_Table_Mangement_Sytem
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.subId = new System.Windows.Forms.TextBox();
-            this.groupId = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.ConsDGV = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.year = new System.Windows.Forms.ComboBox();
-            this.programme = new System.Windows.Forms.ComboBox();
-            this.mainGroup = new System.Windows.Forms.ComboBox();
-            this.subGroup = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.StudentDGV = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.button15 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lec01 = new System.Windows.Forms.TextBox();
+            this.lec02 = new System.Windows.Forms.TextBox();
+            this.code = new System.Windows.Forms.TextBox();
+            this.subject = new System.Windows.Forms.TextBox();
+            this.groupID = new System.Windows.Forms.TextBox();
+            this.tag = new System.Windows.Forms.TextBox();
+            this.duration = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -111,30 +103,8 @@ namespace Time_Table_Mangement_Sytem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StudentDGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsDGV)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(6, -92);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(257, 24);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Add Student Group Details";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(268, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(199, 24);
-            this.label2.TabIndex = 52;
-            this.label2.Text = "Add Student Groups";
             // 
             // panel2
             // 
@@ -150,10 +120,10 @@ namespace Time_Table_Mangement_Sytem
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Location = new System.Drawing.Point(-1, -6);
+            this.panel2.Location = new System.Drawing.Point(-3, -8);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(233, 830);
-            this.panel2.TabIndex = 54;
+            this.panel2.Size = new System.Drawing.Size(233, 852);
+            this.panel2.TabIndex = 58;
             // 
             // panel11
             // 
@@ -189,7 +159,7 @@ namespace Time_Table_Mangement_Sytem
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.Azure;
+            this.panel10.BackColor = System.Drawing.Color.Teal;
             this.panel10.Controls.Add(this.label1);
             this.panel10.Controls.Add(this.pictureBox11);
             this.panel10.Location = new System.Drawing.Point(13, 616);
@@ -207,7 +177,6 @@ namespace Time_Table_Mangement_Sytem
             this.label1.TabIndex = 29;
             this.label1.Text = "Session \r\nManagement";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox11
             // 
@@ -336,7 +305,6 @@ namespace Time_Table_Mangement_Sytem
             this.label14.TabIndex = 29;
             this.label14.Text = "Tags";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // pictureBox6
             // 
@@ -384,7 +352,7 @@ namespace Time_Table_Mangement_Sytem
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Teal;
+            this.panel4.BackColor = System.Drawing.Color.Azure;
             this.panel4.Controls.Add(this.label16);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Location = new System.Drawing.Point(13, 200);
@@ -402,7 +370,6 @@ namespace Time_Table_Mangement_Sytem
             this.label16.TabIndex = 29;
             this.label16.Text = "Students";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // pictureBox4
             // 
@@ -473,17 +440,17 @@ namespace Time_Table_Mangement_Sytem
             this.panel1.BackColor = System.Drawing.Color.DarkCyan;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(229, 0);
+            this.panel1.Location = new System.Drawing.Point(227, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1101, 53);
-            this.panel1.TabIndex = 53;
+            this.panel1.Size = new System.Drawing.Size(1105, 53);
+            this.panel1.TabIndex = 57;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(295, 17);
+            this.label4.Location = new System.Drawing.Point(218, 17);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(472, 24);
             this.label4.TabIndex = 1;
@@ -492,38 +459,89 @@ namespace Time_Table_Mangement_Sytem
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(152, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(44, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // subId
+            // ConsDGV
             // 
-            this.subId.Location = new System.Drawing.Point(488, 288);
-            this.subId.Multiline = true;
-            this.subId.Name = "subId";
-            this.subId.Size = new System.Drawing.Size(192, 33);
-            this.subId.TabIndex = 66;
+            this.ConsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ConsDGV.Location = new System.Drawing.Point(279, 148);
+            this.ConsDGV.Name = "ConsDGV";
+            this.ConsDGV.RowHeadersWidth = 51;
+            this.ConsDGV.RowTemplate.Height = 24;
+            this.ConsDGV.Size = new System.Drawing.Size(993, 228);
+            this.ConsDGV.TabIndex = 59;
+            this.ConsDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ConsDGV_CellClick);
+            this.ConsDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ConsDGV_CellContentClick);
             // 
-            // groupId
+            // label3
             // 
-            this.groupId.Location = new System.Drawing.Point(488, 239);
-            this.groupId.Multiline = true;
-            this.groupId.Name = "groupId";
-            this.groupId.Size = new System.Drawing.Size(192, 29);
-            this.groupId.TabIndex = 63;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(292, 85);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(296, 24);
+            this.label3.TabIndex = 60;
+            this.label3.Text = "Manage Consecutive Sessions";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(308, 456);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 20);
+            this.label2.TabIndex = 61;
+            this.label2.Text = "Lecturer 01 -";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(308, 523);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(108, 20);
+            this.label5.TabIndex = 62;
+            this.label5.Text = "Lecturer 02 -";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(308, 594);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(124, 20);
+            this.label6.TabIndex = 63;
+            this.label6.Text = "Subject Code -";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(308, 666);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(77, 20);
+            this.label7.TabIndex = 64;
+            this.label7.Text = "Subject -";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(328, 239);
+            this.label8.Location = new System.Drawing.Point(778, 456);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(91, 20);
-            this.label8.TabIndex = 59;
+            this.label8.TabIndex = 65;
             this.label8.Text = "Group ID -";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
@@ -531,257 +549,157 @@ namespace Time_Table_Mangement_Sytem
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(328, 288);
+            this.label11.Location = new System.Drawing.Point(778, 520);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(124, 20);
-            this.label11.TabIndex = 60;
-            this.label11.Text = "Sub Group ID -";
+            this.label11.Size = new System.Drawing.Size(48, 20);
+            this.label11.TabIndex = 66;
+            this.label11.Text = "Tag -";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
-            // label7
+            // label19
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(769, 200);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 20);
-            this.label7.TabIndex = 58;
-            this.label7.Text = "Sub Group No -";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(778, 592);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(87, 20);
+            this.label19.TabIndex = 67;
+            this.label19.Text = "Duration -";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
-            // label5
+            // button15
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(328, 148);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(139, 20);
-            this.label5.TabIndex = 55;
-            this.label5.Text = "Academic Year -";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(328, 194);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 20);
-            this.label6.TabIndex = 57;
-            this.label6.Text = "Main Group No -";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.button15.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button15.Location = new System.Drawing.Point(782, 761);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(139, 36);
+            this.button15.TabIndex = 68;
+            this.button15.Text = "UPDATE";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(556, 344);
+            this.button1.Location = new System.Drawing.Point(950, 761);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 47);
-            this.button1.TabIndex = 70;
-            this.button1.Text = "GENERATE ID";
-            this.toolTip2.SetToolTip(this.button1, "Click to generate IDs");
+            this.button1.Size = new System.Drawing.Size(162, 36);
+            this.button1.TabIndex = 69;
+            this.button1.Text = "DELETE";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label20
+            // lec01
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(268, 436);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(217, 24);
-            this.label20.TabIndex = 74;
-            this.label20.Text = "Manage Group Details";
+            this.lec01.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lec01.Location = new System.Drawing.Point(465, 454);
+            this.lec01.Name = "lec01";
+            this.lec01.Size = new System.Drawing.Size(163, 24);
+            this.lec01.TabIndex = 70;
+            this.lec01.TextChanged += new System.EventHandler(this.lec01_TextChanged);
             // 
-            // button11
+            // lec02
             // 
-            this.button11.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button11.Location = new System.Drawing.Point(1093, 296);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(125, 47);
-            this.button11.TabIndex = 69;
-            this.button11.Text = "CLEAR";
-            this.toolTip5.SetToolTip(this.button11, "Click to Clear Fields");
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.lec02.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lec02.Location = new System.Drawing.Point(465, 521);
+            this.lec02.Name = "lec02";
+            this.lec02.Size = new System.Drawing.Size(163, 24);
+            this.lec02.TabIndex = 71;
+            this.lec02.TextChanged += new System.EventHandler(this.lec02_TextChanged);
             // 
-            // button13
+            // code
             // 
-            this.button13.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button13.Location = new System.Drawing.Point(945, 296);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(125, 47);
-            this.button13.TabIndex = 67;
-            this.button13.Text = "SAVE";
-            this.toolTip1.SetToolTip(this.button13, "Click Here to Save");
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.code.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.code.Location = new System.Drawing.Point(465, 594);
+            this.code.Name = "code";
+            this.code.Size = new System.Drawing.Size(163, 24);
+            this.code.TabIndex = 72;
+            this.code.TextChanged += new System.EventHandler(this.code_TextChanged);
             // 
-            // year
+            // subject
             // 
-            this.year.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.year.FormattingEnabled = true;
-            this.year.Items.AddRange(new object[] {
-            "Y1.S1",
-            "Y1.S2",
-            "Y2.S1",
-            "Y2.S2",
-            "Y3.S1",
-            "Y3.S2",
-            "Y4.S1",
-            "Y4.S2"});
-            this.year.Location = new System.Drawing.Point(488, 140);
-            this.year.Name = "year";
-            this.year.Size = new System.Drawing.Size(192, 28);
-            this.year.TabIndex = 70;
-            this.year.Text = "Select Year";
+            this.subject.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject.Location = new System.Drawing.Point(465, 664);
+            this.subject.Name = "subject";
+            this.subject.Size = new System.Drawing.Size(163, 24);
+            this.subject.TabIndex = 73;
+            this.subject.TextChanged += new System.EventHandler(this.subject_TextChanged);
             // 
-            // programme
+            // groupID
             // 
-            this.programme.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.programme.FormattingEnabled = true;
-            this.programme.Items.AddRange(new object[] {
-            "IT",
-            "SE",
-            "ISE",
-            "DS",
-            "CS",
-            "CSNE"});
-            this.programme.Location = new System.Drawing.Point(962, 146);
-            this.programme.Name = "programme";
-            this.programme.Size = new System.Drawing.Size(198, 28);
-            this.programme.TabIndex = 71;
-            this.programme.Text = "Select Programme";
+            this.groupID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupID.Location = new System.Drawing.Point(917, 454);
+            this.groupID.Name = "groupID";
+            this.groupID.Size = new System.Drawing.Size(163, 24);
+            this.groupID.TabIndex = 74;
+            this.groupID.TextChanged += new System.EventHandler(this.groupID_TextChanged);
             // 
-            // mainGroup
+            // tag
             // 
-            this.mainGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainGroup.FormattingEnabled = true;
-            this.mainGroup.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.mainGroup.Location = new System.Drawing.Point(488, 191);
-            this.mainGroup.Name = "mainGroup";
-            this.mainGroup.Size = new System.Drawing.Size(192, 28);
-            this.mainGroup.TabIndex = 72;
-            this.mainGroup.Text = "Select Group";
+            this.tag.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tag.Location = new System.Drawing.Point(917, 516);
+            this.tag.Name = "tag";
+            this.tag.Size = new System.Drawing.Size(163, 24);
+            this.tag.TabIndex = 75;
+            this.tag.TextChanged += new System.EventHandler(this.tag_TextChanged);
             // 
-            // subGroup
+            // duration
             // 
-            this.subGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subGroup.FormattingEnabled = true;
-            this.subGroup.Items.AddRange(new object[] {
-            "1",
-            "2"});
-            this.subGroup.Location = new System.Drawing.Point(962, 200);
-            this.subGroup.Name = "subGroup";
-            this.subGroup.Size = new System.Drawing.Size(198, 28);
-            this.subGroup.TabIndex = 73;
-            this.subGroup.Text = "Select Sub Group";
+            this.duration.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.duration.Location = new System.Drawing.Point(917, 588);
+            this.duration.Name = "duration";
+            this.duration.Size = new System.Drawing.Size(163, 24);
+            this.duration.TabIndex = 76;
+            this.duration.TextChanged += new System.EventHandler(this.duration_TextChanged);
             // 
-            // label19
+            // button2
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(769, 148);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(112, 20);
-            this.label19.TabIndex = 56;
-            this.label19.Text = "Programme -";
+            this.button2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(1152, 761);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(151, 36);
+            this.button2.TabIndex = 77;
+            this.button2.Text = "BACK";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // StudentDGV
-            // 
-            this.StudentDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StudentDGV.Location = new System.Drawing.Point(261, 489);
-            this.StudentDGV.Name = "StudentDGV";
-            this.StudentDGV.RowHeadersWidth = 51;
-            this.StudentDGV.RowTemplate.Height = 24;
-            this.StudentDGV.Size = new System.Drawing.Size(1044, 230);
-            this.StudentDGV.TabIndex = 75;
-            this.StudentDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudentDGV_CellClick);
-            this.StudentDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudentDGV_CellContentClick);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(1135, 741);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 47);
-            this.button3.TabIndex = 77;
-            this.button3.Text = "DELETE";
-            this.toolTip4.SetToolTip(this.button3, "Confirm Deletion");
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(1004, 741);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 47);
-            this.button4.TabIndex = 76;
-            this.button4.Text = "UPDATE";
-            this.toolTip3.SetToolTip(this.button4, "Confirm Update");
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // Addstudents
+            // ManageConsecutive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1326, 813);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.StudentDGV);
-            this.Controls.Add(this.subGroup);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.year);
-            this.Controls.Add(this.mainGroup);
-            this.Controls.Add(this.programme);
-            this.Controls.Add(this.label20);
+            this.ClientSize = new System.Drawing.Size(1328, 836);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.duration);
+            this.Controls.Add(this.tag);
+            this.Controls.Add(this.groupID);
+            this.Controls.Add(this.subject);
+            this.Controls.Add(this.code);
+            this.Controls.Add(this.lec02);
+            this.Controls.Add(this.lec01);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.subId);
-            this.Controls.Add(this.groupId);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label11);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Addstudents";
+            this.Controls.Add(this.ConsDGV);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "ManageConsecutive";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Time Table Management System";
-            this.Load += new System.EventHandler(this.Addstudents_Load);
+            this.Text = "ManageConsecutive";
+            this.Load += new System.EventHandler(this.ManageConsecutive_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -815,15 +733,14 @@ namespace Time_Table_Mangement_Sytem
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StudentDGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label12;
@@ -857,29 +774,24 @@ namespace Time_Table_Mangement_Sytem
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox subId;
-        private System.Windows.Forms.TextBox groupId;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView ConsDGV;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox subGroup;
-        private System.Windows.Forms.ComboBox programme;
-        private System.Windows.Forms.ComboBox mainGroup;
-        private System.Windows.Forms.ComboBox year;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.DataGridView StudentDGV;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip2;
-        private System.Windows.Forms.ToolTip toolTip4;
-        private System.Windows.Forms.ToolTip toolTip3;
-        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox lec01;
+        private System.Windows.Forms.TextBox lec02;
+        private System.Windows.Forms.TextBox code;
+        private System.Windows.Forms.TextBox subject;
+        private System.Windows.Forms.TextBox groupID;
+        private System.Windows.Forms.TextBox tag;
+        private System.Windows.Forms.TextBox duration;
+        private System.Windows.Forms.Button button2;
     }
 }

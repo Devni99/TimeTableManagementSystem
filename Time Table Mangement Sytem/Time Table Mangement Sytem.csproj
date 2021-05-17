@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
@@ -63,11 +64,41 @@
     <Compile Include="ConsecutiveSessions.Designer.cs">
       <DependentUpon>ConsecutiveSessions.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageStudent.cs">
+    <Compile Include="Lecturer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageStudent.Designer.cs">
-      <DependentUpon>ManageStudent.cs</DependentUpon>
+    <Compile Include="Lecturer.Designer.cs">
+      <DependentUpon>Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageConsecutive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageConsecutive.Designer.cs">
+      <DependentUpon>ManageConsecutive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageParallel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageParallel.Designer.cs">
+      <DependentUpon>ManageParallel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotOverlappingSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotOverlappingSessions.Designer.cs">
+      <DependentUpon>NotOverlappingSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParallelSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParallelSessions.Designer.cs">
+      <DependentUpon>ParallelSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tags.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tags.Designer.cs">
+      <DependentUpon>Tags.cs</DependentUpon>
     </Compile>
     <Compile Include="Session ManagementDashboard.cs">
       <SubType>Form</SubType>
@@ -83,14 +114,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TImeTableDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TImeTableDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TImeTableDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TImeTableDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TImeTableDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TImeTableDBDataSet2.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Addstudents.resx">
       <DependentUpon>Addstudents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsecutiveSessions.resx">
       <DependentUpon>ConsecutiveSessions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageStudent.resx">
-      <DependentUpon>ManageStudent.cs</DependentUpon>
+    <EmbeddedResource Include="Lecturer.resx">
+      <DependentUpon>Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageConsecutive.resx">
+      <DependentUpon>ManageConsecutive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageParallel.resx">
+      <DependentUpon>ManageParallel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotOverlappingSessions.resx">
+      <DependentUpon>NotOverlappingSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParallelSessions.resx">
+      <DependentUpon>ParallelSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tags.resx">
+      <DependentUpon>Tags.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Session ManagementDashboard.resx">
       <DependentUpon>Session ManagementDashboard.cs</DependentUpon>
@@ -117,6 +178,39 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TImeTableDBDataSet.xsc">
+      <DependentUpon>TImeTableDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TImeTableDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TImeTableDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TImeTableDBDataSet.xss">
+      <DependentUpon>TImeTableDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TImeTableDBDataSet1.xsc">
+      <DependentUpon>TImeTableDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TImeTableDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TImeTableDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TImeTableDBDataSet1.xss">
+      <DependentUpon>TImeTableDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TImeTableDBDataSet2.xsc">
+      <DependentUpon>TImeTableDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TImeTableDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TImeTableDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TImeTableDBDataSet2.xss">
+      <DependentUpon>TImeTableDBDataSet2.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
