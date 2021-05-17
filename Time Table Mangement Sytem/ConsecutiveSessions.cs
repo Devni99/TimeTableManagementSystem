@@ -130,5 +130,17 @@ namespace Time_Table_Mangement_Sytem
             ps.Show();
             this.Hide();
         }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label12_Click_1(object sender, EventArgs e)
+        {
+            TimeTable_Lec tm = new TimeTable_Lec();
+            tm.Show();
+            this.Hide();
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Time_Table_Mangement_Sytem
 {
-    partial class NotOverlappingSessions
+    partial class TimeTable_Student
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,6 @@ namespace Time_Table_Mangement_Sytem
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
@@ -63,25 +62,14 @@ namespace Time_Table_Mangement_Sytem
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.OverDGV = new System.Windows.Forms.DataGridView();
-            this.sessionIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lecture01DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lecture02DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subjectCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subjectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tagDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sessionBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tImeTableDBDataSet2 = new Time_Table_Mangement_Sytem.TImeTableDBDataSet2();
-            this.sessionTableAdapter = new Time_Table_Mangement_Sytem.TImeTableDBDataSet2TableAdapters.SessionTableAdapter();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -105,9 +93,7 @@ namespace Time_Table_Mangement_Sytem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OverDGV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sessionBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tImeTableDBDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -127,11 +113,11 @@ namespace Time_Table_Mangement_Sytem
             this.panel2.Location = new System.Drawing.Point(-3, -8);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(233, 852);
-            this.panel2.TabIndex = 62;
+            this.panel2.TabIndex = 60;
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.Azure;
+            this.panel11.BackColor = System.Drawing.Color.Teal;
             this.panel11.Controls.Add(this.label12);
             this.panel11.Controls.Add(this.pictureBox10);
             this.panel11.Location = new System.Drawing.Point(13, 693);
@@ -149,6 +135,7 @@ namespace Time_Table_Mangement_Sytem
             this.label12.TabIndex = 29;
             this.label12.Text = "TIme Tables";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // pictureBox10
             // 
@@ -163,7 +150,7 @@ namespace Time_Table_Mangement_Sytem
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.Teal;
+            this.panel10.BackColor = System.Drawing.Color.Azure;
             this.panel10.Controls.Add(this.label1);
             this.panel10.Controls.Add(this.pictureBox11);
             this.panel10.Location = new System.Drawing.Point(13, 616);
@@ -444,17 +431,17 @@ namespace Time_Table_Mangement_Sytem
             this.panel1.BackColor = System.Drawing.Color.DarkCyan;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(227, -4);
+            this.panel1.Location = new System.Drawing.Point(227, -2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1105, 53);
-            this.panel1.TabIndex = 61;
+            this.panel1.TabIndex = 59;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(218, 17);
+            this.label4.Location = new System.Drawing.Point(218, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(472, 24);
             this.label4.TabIndex = 1;
@@ -470,54 +457,42 @@ namespace Time_Table_Mangement_Sytem
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(607, 138);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(134, 39);
+            this.button2.TabIndex = 74;
+            this.button2.Text = "Location";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(313, 166);
+            this.button1.Location = new System.Drawing.Point(454, 138);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 41);
-            this.button1.TabIndex = 71;
-            this.button1.Text = "Consective Session";
+            this.button1.Size = new System.Drawing.Size(138, 39);
+            this.button1.TabIndex = 73;
+            this.button1.Text = "Student";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button13.Location = new System.Drawing.Point(1070, 167);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(185, 41);
-            this.button13.TabIndex = 70;
-            this.button13.Text = "Not Available Times";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Silver;
-            this.button12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button12.Location = new System.Drawing.Point(805, 167);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(195, 41);
-            this.button12.TabIndex = 69;
-            this.button12.Text = "Not Overlapping Session";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button11.Location = new System.Drawing.Point(558, 166);
+            this.button11.Location = new System.Drawing.Point(308, 138);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(185, 41);
-            this.button11.TabIndex = 68;
-            this.button11.Text = "Parallel Session";
+            this.button11.Size = new System.Drawing.Size(131, 39);
+            this.button11.TabIndex = 72;
+            this.button11.Text = "Lecturer";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -526,168 +501,85 @@ namespace Time_Table_Mangement_Sytem
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(299, 94);
+            this.label3.Location = new System.Drawing.Point(284, 84);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 24);
-            this.label3.TabIndex = 67;
-            this.label3.Text = "Session Management";
+            this.label3.Size = new System.Drawing.Size(208, 24);
+            this.label3.TabIndex = 71;
+            this.label3.Text = "Generate Time Table";
             // 
-            // button2
+            // button4
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(826, 730);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(331, 43);
-            this.button2.TabIndex = 73;
-            this.button2.Text = "VIEW NOT OVERLAPPING SESSION";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button4.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.Location = new System.Drawing.Point(1151, 229);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(143, 55);
+            this.button4.TabIndex = 79;
+            this.button4.Text = "PRINT";
+            this.button4.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // button3
             // 
-            this.button15.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button15.Location = new System.Drawing.Point(419, 730);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(324, 43);
-            this.button15.TabIndex = 72;
-            this.button15.Text = "ADD NOT OVERLAPPING SESSION";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.button3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(983, 229);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(143, 55);
+            this.button3.TabIndex = 78;
+            this.button3.Text = "GENERATE";
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // OverDGV
+            // dataGridView1
             // 
-            this.OverDGV.AutoGenerateColumns = false;
-            this.OverDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.OverDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.sessionIDDataGridViewTextBoxColumn,
-            this.lecture01DataGridViewTextBoxColumn,
-            this.lecture02DataGridViewTextBoxColumn,
-            this.subjectCodeDataGridViewTextBoxColumn,
-            this.subjectDataGridViewTextBoxColumn,
-            this.groupIDDataGridViewTextBoxColumn,
-            this.tagDataGridViewTextBoxColumn,
-            this.durationDataGridViewTextBoxColumn});
-            this.OverDGV.DataSource = this.sessionBindingSource;
-            this.OverDGV.Location = new System.Drawing.Point(291, 291);
-            this.OverDGV.Name = "OverDGV";
-            this.OverDGV.RowHeadersWidth = 51;
-            this.OverDGV.RowTemplate.Height = 24;
-            this.OverDGV.Size = new System.Drawing.Size(997, 380);
-            this.OverDGV.TabIndex = 74;
-            this.OverDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OverDGV_CellContentClick);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(288, 312);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1006, 483);
+            this.dataGridView1.TabIndex = 77;
             // 
-            // sessionIDDataGridViewTextBoxColumn
+            // comboBox1
             // 
-            this.sessionIDDataGridViewTextBoxColumn.DataPropertyName = "SessionID";
-            this.sessionIDDataGridViewTextBoxColumn.HeaderText = "SessionID";
-            this.sessionIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.sessionIDDataGridViewTextBoxColumn.Name = "sessionIDDataGridViewTextBoxColumn";
-            this.sessionIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.sessionIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // lecture01DataGridViewTextBoxColumn
-            // 
-            this.lecture01DataGridViewTextBoxColumn.DataPropertyName = "Lecture01";
-            this.lecture01DataGridViewTextBoxColumn.HeaderText = "Lecture01";
-            this.lecture01DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.lecture01DataGridViewTextBoxColumn.Name = "lecture01DataGridViewTextBoxColumn";
-            this.lecture01DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // lecture02DataGridViewTextBoxColumn
-            // 
-            this.lecture02DataGridViewTextBoxColumn.DataPropertyName = "Lecture02";
-            this.lecture02DataGridViewTextBoxColumn.HeaderText = "Lecture02";
-            this.lecture02DataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.lecture02DataGridViewTextBoxColumn.Name = "lecture02DataGridViewTextBoxColumn";
-            this.lecture02DataGridViewTextBoxColumn.Width = 125;
-            // 
-            // subjectCodeDataGridViewTextBoxColumn
-            // 
-            this.subjectCodeDataGridViewTextBoxColumn.DataPropertyName = "SubjectCode";
-            this.subjectCodeDataGridViewTextBoxColumn.HeaderText = "SubjectCode";
-            this.subjectCodeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.subjectCodeDataGridViewTextBoxColumn.Name = "subjectCodeDataGridViewTextBoxColumn";
-            this.subjectCodeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // subjectDataGridViewTextBoxColumn
-            // 
-            this.subjectDataGridViewTextBoxColumn.DataPropertyName = "Subject";
-            this.subjectDataGridViewTextBoxColumn.HeaderText = "Subject";
-            this.subjectDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.subjectDataGridViewTextBoxColumn.Name = "subjectDataGridViewTextBoxColumn";
-            this.subjectDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // groupIDDataGridViewTextBoxColumn
-            // 
-            this.groupIDDataGridViewTextBoxColumn.DataPropertyName = "GroupID";
-            this.groupIDDataGridViewTextBoxColumn.HeaderText = "GroupID";
-            this.groupIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.groupIDDataGridViewTextBoxColumn.Name = "groupIDDataGridViewTextBoxColumn";
-            this.groupIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // tagDataGridViewTextBoxColumn
-            // 
-            this.tagDataGridViewTextBoxColumn.DataPropertyName = "Tag";
-            this.tagDataGridViewTextBoxColumn.HeaderText = "Tag";
-            this.tagDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.tagDataGridViewTextBoxColumn.Name = "tagDataGridViewTextBoxColumn";
-            this.tagDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // durationDataGridViewTextBoxColumn
-            // 
-            this.durationDataGridViewTextBoxColumn.DataPropertyName = "Duration";
-            this.durationDataGridViewTextBoxColumn.HeaderText = "Duration";
-            this.durationDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.durationDataGridViewTextBoxColumn.Name = "durationDataGridViewTextBoxColumn";
-            this.durationDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // sessionBindingSource
-            // 
-            this.sessionBindingSource.DataMember = "Session";
-            this.sessionBindingSource.DataSource = this.tImeTableDBDataSet2;
-            // 
-            // tImeTableDBDataSet2
-            // 
-            this.tImeTableDBDataSet2.DataSetName = "TImeTableDBDataSet2";
-            this.tImeTableDBDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // sessionTableAdapter
-            // 
-            this.sessionTableAdapter.ClearBeforeFill = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(665, 242);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(246, 24);
+            this.comboBox1.TabIndex = 76;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(697, 790);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(563, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 17);
+            this.label2.Size = new System.Drawing.Size(66, 20);
             this.label2.TabIndex = 75;
+            this.label2.Text = "Student";
             // 
-            // NotOverlappingSessions
+            // TimeTable_Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1328, 836);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.OverDGV);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button15);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label3);
-            this.Name = "NotOverlappingSessions";
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "TimeTable_Student";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NotOverlappingSessions";
-            this.Load += new System.EventHandler(this.NotOverlappingSessions_Load);
+            this.Text = "TimeTable_Student";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -721,9 +613,7 @@ namespace Time_Table_Mangement_Sytem
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OverDGV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sessionBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tImeTableDBDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -764,25 +654,14 @@ namespace Time_Table_Mangement_Sytem
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.DataGridView OverDGV;
-        private TImeTableDBDataSet2 tImeTableDBDataSet2;
-        private System.Windows.Forms.BindingSource sessionBindingSource;
-        private TImeTableDBDataSet2TableAdapters.SessionTableAdapter sessionTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sessionIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lecture01DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lecture02DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn subjectCodeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn subjectDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn groupIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tagDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn durationDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
     }
 }
