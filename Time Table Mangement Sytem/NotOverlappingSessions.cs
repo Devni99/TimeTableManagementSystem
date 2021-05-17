@@ -59,7 +59,7 @@ namespace Time_Table_Mangement_Sytem
                 bool chkboxSelected = Convert.ToBoolean(dr.Cells["checkBoxColumn"].Value);
                 if (chkboxSelected)
                 {
-                    string sqlquery = "Insert into ParallelSession values (@Lec01,@Lec02,@Code,@Subject,@GroupID,@Tag,@Duration)";
+                    string sqlquery = "Insert into NotOverlapping values (@Lec01,@Lec02,@Code,@Subject,@GroupID,@Tag,@Duration)";
                     SqlCommand sqlComm = new SqlCommand(sqlquery, Con);
                     sqlComm.Parameters.AddWithValue("@Lec01", dr.Cells[2].Value);
                     sqlComm.Parameters.AddWithValue("@Lec02", dr.Cells[3].Value);
@@ -79,7 +79,9 @@ namespace Time_Table_Mangement_Sytem
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            ManageNotOverlappingSessions mo = new ManageNotOverlappingSessions();
+            mo.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

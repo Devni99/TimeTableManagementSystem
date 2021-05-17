@@ -35,3 +35,4 @@ C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table
 C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ParallelSessions.resources
 C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageParallel.resources
 C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.NotOverlappingSessions.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageNotOverlappingSessions.resources

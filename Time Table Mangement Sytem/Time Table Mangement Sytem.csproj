@@ -76,6 +76,12 @@
     <Compile Include="ManageConsecutive.Designer.cs">
       <DependentUpon>ManageConsecutive.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageNotOverlappingSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageNotOverlappingSessions.Designer.cs">
+      <DependentUpon>ManageNotOverlappingSessions.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageParallel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageConsecutive.resx">
       <DependentUpon>ManageConsecutive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageNotOverlappingSessions.resx">
+      <DependentUpon>ManageNotOverlappingSessions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageParallel.resx">
       <DependentUpon>ManageParallel.cs</DependentUpon>
