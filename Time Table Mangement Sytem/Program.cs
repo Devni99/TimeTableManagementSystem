@@ -16,7 +16,7 @@ namespace Time_Table_Mangement_Sytem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Session_ManagementDashboard());
+            Application.Run(new ConsecutiveSessions());
         }
     }
 }

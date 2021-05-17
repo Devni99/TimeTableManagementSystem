@@ -1,7 +1,7 @@
 ﻿
 namespace Time_Table_Mangement_Sytem
 {
-    partial class ManageStudent
+    partial class Tags
     {
         /// <summary>
         /// Required designer variable.
@@ -32,79 +32,77 @@ namespace Time_Table_Mangement_Sytem
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tagname = new System.Windows.Forms.TextBox();
+            this.taglabel = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.TagDGV = new System.Windows.Forms.DataGridView();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel11.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TagDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -128,106 +126,62 @@ namespace Time_Table_Mangement_Sytem
             this.label1.TabIndex = 1;
             this.label1.Text = "ABC Institute Time Table Management System";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(245, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(256, 79);
+            this.label3.Location = new System.Drawing.Point(373, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(294, 24);
+            this.label3.Size = new System.Drawing.Size(100, 24);
             this.label3.TabIndex = 29;
-            this.label3.Text = "Manage Student Group Details";
+            this.label3.Text = "Add Tags";
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(315, 136);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(861, 266);
-            this.dataGridView1.TabIndex = 30;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(760, 502);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 20);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "Sub Group No -";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(439, 432);
+            this.label4.Location = new System.Drawing.Point(533, 184);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 20);
+            this.label4.Size = new System.Drawing.Size(73, 21);
             this.label4.TabIndex = 31;
-            this.label4.Text = "Academic Year -";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(760, 432);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 20);
-            this.label6.TabIndex = 34;
-            this.label6.Text = "Main Group No -";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label4.Text = "Name -";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(439, 500);
+            this.label5.Location = new System.Drawing.Point(533, 233);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 20);
+            this.label5.Size = new System.Drawing.Size(109, 21);
             this.label5.TabIndex = 33;
-            this.label5.Text = "Programme -";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(439, 568);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 20);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Group ID -";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(760, 573);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(124, 20);
-            this.label11.TabIndex = 38;
-            this.label11.Text = "Sub Group ID -";
+            this.label5.Text = "Tag Label -";
             // 
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button13.Location = new System.Drawing.Point(528, 674);
+            this.button13.Location = new System.Drawing.Point(608, 337);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(125, 47);
             this.button13.TabIndex = 39;
             this.button13.Text = "UPDATE";
+            this.toolTip2.SetToolTip(this.button13, "Confirm Update");
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
@@ -236,73 +190,33 @@ namespace Time_Table_Mangement_Sytem
             this.button10.BackColor = System.Drawing.Color.LightSkyBlue;
             this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button10.Location = new System.Drawing.Point(730, 674);
+            this.button10.Location = new System.Drawing.Point(779, 337);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(124, 47);
             this.button10.TabIndex = 40;
             this.button10.Text = "DELETE";
+            this.toolTip3.SetToolTip(this.button10, "Confirm Deletion");
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // tagname
             // 
-            this.button11.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button11.Location = new System.Drawing.Point(924, 674);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(125, 47);
-            this.button11.TabIndex = 41;
-            this.button11.Text = "CLEAR";
-            this.button11.UseVisualStyleBackColor = false;
+            this.tagname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tagname.Location = new System.Drawing.Point(744, 175);
+            this.tagname.Multiline = true;
+            this.tagname.Name = "tagname";
+            this.tagname.Size = new System.Drawing.Size(184, 29);
+            this.tagname.TabIndex = 42;
+            this.tagname.TextChanged += new System.EventHandler(this.tagname_TextChanged);
             // 
-            // textBox1
+            // taglabel
             // 
-            this.textBox1.Location = new System.Drawing.Point(594, 432);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(134, 29);
-            this.textBox1.TabIndex = 42;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(594, 502);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(134, 29);
-            this.textBox2.TabIndex = 43;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(594, 567);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(134, 29);
-            this.textBox3.TabIndex = 44;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(915, 432);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(134, 29);
-            this.textBox4.TabIndex = 45;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(915, 498);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(134, 29);
-            this.textBox5.TabIndex = 46;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(915, 567);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(134, 29);
-            this.textBox6.TabIndex = 47;
+            this.taglabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taglabel.Location = new System.Drawing.Point(744, 233);
+            this.taglabel.Multiline = true;
+            this.taglabel.Name = "taglabel";
+            this.taglabel.Size = new System.Drawing.Size(184, 29);
+            this.taglabel.TabIndex = 43;
             // 
             // panel2
             // 
@@ -344,6 +258,17 @@ namespace Time_Table_Mangement_Sytem
             this.label12.Text = "TIme Tables";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox10.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
+            this.pictureBox10.Location = new System.Drawing.Point(15, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 17;
+            this.pictureBox10.TabStop = false;
+            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Azure;
@@ -366,6 +291,17 @@ namespace Time_Table_Mangement_Sytem
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox11.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.session_logo;
+            this.pictureBox11.Location = new System.Drawing.Point(15, 2);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 27;
+            this.pictureBox11.TabStop = false;
+            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Azure;
@@ -386,6 +322,17 @@ namespace Time_Table_Mangement_Sytem
             this.label10.TabIndex = 29;
             this.label10.Text = "Working Days\r\n/Hours";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox8.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Time_logo;
+            this.pictureBox8.Location = new System.Drawing.Point(15, 2);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 15;
+            this.pictureBox8.TabStop = false;
             // 
             // panel8
             // 
@@ -408,6 +355,17 @@ namespace Time_Table_Mangement_Sytem
             this.label9.Text = "Statistics";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox9.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Statistic_logo;
+            this.pictureBox9.Location = new System.Drawing.Point(15, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 16;
+            this.pictureBox9.TabStop = false;
+            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Azure;
@@ -429,9 +387,20 @@ namespace Time_Table_Mangement_Sytem
             this.label13.Text = "Location";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox7.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Location_logo;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 14;
+            this.pictureBox7.TabStop = false;
+            // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Azure;
+            this.panel6.BackColor = System.Drawing.Color.Teal;
             this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.Location = new System.Drawing.Point(13, 338);
@@ -449,6 +418,19 @@ namespace Time_Table_Mangement_Sytem
             this.label14.TabIndex = 29;
             this.label14.Text = "Tags";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.tag_logo;
+            this.pictureBox6.Location = new System.Drawing.Point(15, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
             // 
             // panel5
             // 
@@ -471,9 +453,20 @@ namespace Time_Table_Mangement_Sytem
             this.label15.Text = "Subjects";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox5.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.subjects_logo;
+            this.pictureBox5.Location = new System.Drawing.Point(17, 4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(40, 39);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
+            // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Teal;
+            this.panel4.BackColor = System.Drawing.Color.Azure;
             this.panel4.Controls.Add(this.label16);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Location = new System.Drawing.Point(13, 200);
@@ -493,6 +486,17 @@ namespace Time_Table_Mangement_Sytem
             this.label16.Text = "Students";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Azure;
+            this.pictureBox4.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.students_logo;
+            this.pictureBox4.Location = new System.Drawing.Point(15, 6);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(42, 37);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
             // 
             // panel3
             // 
@@ -514,106 +518,6 @@ namespace Time_Table_Mangement_Sytem
             this.label17.Size = new System.Drawing.Size(92, 20);
             this.label17.TabIndex = 29;
             this.label17.Text = "Lecturers";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label18.Location = new System.Drawing.Point(77, 42);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(119, 24);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Dashboard";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox10.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
-            this.pictureBox10.Location = new System.Drawing.Point(15, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 17;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox11.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.session_logo;
-            this.pictureBox11.Location = new System.Drawing.Point(15, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 27;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox8.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Time_logo;
-            this.pictureBox8.Location = new System.Drawing.Point(15, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 15;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox9.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Statistic_logo;
-            this.pictureBox9.Location = new System.Drawing.Point(15, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 16;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox7.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Location_logo;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(40, 41);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 14;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox6.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.tag_logo;
-            this.pictureBox6.Location = new System.Drawing.Point(15, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 13;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox5.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.subjects_logo;
-            this.pictureBox5.Location = new System.Drawing.Point(17, 4);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(40, 39);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Azure;
-            this.pictureBox4.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.students_logo;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 6);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 37);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -637,81 +541,127 @@ namespace Time_Table_Mangement_Sytem
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // label18
             // 
-            this.pictureBox1.Image = global::Time_Table_Mangement_Sytem.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(245, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label18.Location = new System.Drawing.Point(77, 42);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(119, 24);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Dashboard";
             // 
-            // ManageStudent
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(426, 337);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 47);
+            this.button1.TabIndex = 51;
+            this.button1.Text = "SAVE";
+            this.toolTip1.SetToolTip(this.button1, "Click to Save");
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(373, 425);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(137, 24);
+            this.label6.TabIndex = 52;
+            this.label6.Text = "Manage Tags";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(951, 337);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 47);
+            this.button2.TabIndex = 53;
+            this.button2.Text = "CLEAR";
+            this.toolTip4.SetToolTip(this.button2, "Click to Clear Fields");
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // TagDGV
+            // 
+            this.TagDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TagDGV.Location = new System.Drawing.Point(451, 475);
+            this.TagDGV.Name = "TagDGV";
+            this.TagDGV.RowHeadersWidth = 51;
+            this.TagDGV.RowTemplate.Height = 24;
+            this.TagDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.TagDGV.Size = new System.Drawing.Size(591, 284);
+            this.TagDGV.TabIndex = 54;
+            this.TagDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TagDGV_CellClick_1);
+            this.TagDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TagDGV_CellContentClick);
+            // 
+            // Tags
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1328, 836);
+            this.ClientSize = new System.Drawing.Size(1322, 788);
+            this.Controls.Add(this.TagDGV);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.taglabel);
+            this.Controls.Add(this.tagname);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Name = "ManageStudent";
+            this.Name = "Tags";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Time Table Management System";
             this.Load += new System.EventHandler(this.ManageStudent_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TagDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -723,23 +673,13 @@ namespace Time_Table_Mangement_Sytem
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tagname;
+        private System.Windows.Forms.TextBox taglabel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label12;
@@ -770,5 +710,13 @@ namespace Time_Table_Mangement_Sytem
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView TagDGV;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip4;
     }
 }

@@ -14,3 +14,25 @@ E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageStudent.resources
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Addstudents.resources
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Session_ManagementDashboard.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe.config
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.pdb
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\bin\Debug\Guna.UI.dll
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csprojAssemblyReference.cache
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Addstudents.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ConsecutiveSessions.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Session_ManagementDashboard.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Splash.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Properties.Resources.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.GenerateResource.cache
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CoreCompileInputs.cache
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CopyComplete
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.exe
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.pdb
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Tags.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Lecturer.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageConsecutive.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ParallelSessions.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageParallel.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.NotOverlappingSessions.resources
+C:\Users\Devni\Documents\ITPM\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageNotOverlappingSessions.resources
