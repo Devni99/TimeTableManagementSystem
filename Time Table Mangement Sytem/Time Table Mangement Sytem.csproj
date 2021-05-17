@@ -40,6 +40,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -135,6 +136,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TImeTableDBDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="TimeTable_Lec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeTable_Lec.Designer.cs">
+      <DependentUpon>TimeTable_Lec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTable_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeTable_Location.Designer.cs">
+      <DependentUpon>TimeTable_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTable_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeTable_Student.Designer.cs">
+      <DependentUpon>TimeTable_Student.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Addstudents.resx">
       <DependentUpon>Addstudents.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +197,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TimeTable_Lec.resx">
+      <DependentUpon>TimeTable_Lec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeTable_Location.resx">
+      <DependentUpon>TimeTable_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeTable_Student.resx">
+      <DependentUpon>TimeTable_Student.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
