@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\Itpm\Itpm\bin\Debug\Itpm.exe.config
+C:\Users\DELL\source\repos\Itpm\Itpm\bin\Debug\Itpm.exe
+C:\Users\DELL\source\repos\Itpm\Itpm\bin\Debug\Itpm.pdb
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Properties.Resources.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.exe
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.pdb
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form1.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form2.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form3.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\bin\Debug\ITPM.mdf
+C:\Users\DELL\source\repos\Itpm\Itpm\bin\Debug\ITPM_log.ldf
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form4.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form5.resources
+C:\Users\DELL\source\repos\Itpm\Itpm\obj\Debug\Itpm.Form6.resources
