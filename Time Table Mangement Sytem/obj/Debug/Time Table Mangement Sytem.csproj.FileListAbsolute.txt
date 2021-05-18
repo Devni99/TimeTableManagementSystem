@@ -14,3 +14,20 @@ E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageStudent.resources
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Addstudents.resources
 E:\ITPM Project\Time Table Mangement Sytem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Session_ManagementDashboard.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csprojAssemblyReference.cache
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Addstudents.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ConsecutiveSessions.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Lecturer.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.ManageStudent.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Session_ManagementDashboard.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Splash.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Properties.Resources.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.GenerateResource.cache
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CoreCompileInputs.cache
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.exe
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.pdb
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time_Table_Mangement_Sytem.Subjects.resources
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe.config
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.exe
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\bin\Debug\Time Table Mangement Sytem.pdb
+D:\TimeTableMS\TimeTableManagementSystem\Time Table Mangement Sytem\obj\Debug\Time Table Mangement Sytem.csproj.CopyComplete

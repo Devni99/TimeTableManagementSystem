@@ -60,5 +60,10 @@ namespace Time_Table_Mangement_Sytem
             sd.Show();
             this.Hide();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
